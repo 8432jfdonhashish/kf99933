@@ -451,7 +451,7 @@ select.form-input{appearance:none;-webkit-appearance:none;cursor:pointer;}
                   </div>
                   <div class="card-text">
                     <div class="card-fl">Navn</div>
-                    <div class="card-name" id="cardName">Daniel Nielsen</div>
+                    <div class="card-name" id="cardName">Daniel Hansen</div>
                     <div class="card-fl">Fødselsdag</div>
                     <div class="card-dob" id="cardDob">5 Dec, 2007</div>
                   </div>
@@ -576,7 +576,7 @@ select.form-input{appearance:none;-webkit-appearance:none;cursor:pointer;}
         <div id="qrPhotoDisplay" style="width:140px;height:170px;border-radius:10px;overflow:hidden;background:#D0D0D5;margin-bottom:14px;">
           <img src="https://cdn.discordapp.com/attachments/1572335838916771950/1573785513406636135/73AD9BEC-B6B0-4C0F-9A78-61B2C3E9F6F2.jpg?ex=6b034579&amp;is=6b01f3f9&amp;hm=0b24fe172af97a81134f77dab67f8148d9c8dff7bd00f054137cec587f6b550b&amp;" alt="Profilbillede" style="width:100%;height:100%;object-fit:cover;display:block;">
         </div>
-        <div id="qrCardName" style="font-size:20px;font-weight:700;color:#1C1C1E;text-align:center;margin-bottom:4px;">Daniel Nielsen</div>
+        <div id="qrCardName" style="font-size:20px;font-weight:700;color:#1C1C1E;text-align:center;margin-bottom:4px;">Daniel Hansen</div>
         <div style="font-size:14px;color:#8E8E93;font-weight:400;margin-bottom:20px;">e-Boks ID</div>
         <div style="width:100%;height:0.5px;background:#E5E5EA;"></div>
       </div>
@@ -672,7 +672,7 @@ select.form-input{appearance:none;-webkit-appearance:none;cursor:pointer;}
         </div>
         <div style="font-size:13px;color:var(--subtext);">Tap for at skifte profilbillede</div>
       </div>
-      <div class="form-group"><label class="form-label">Fulde navn</label><input class="form-input" id="editName" type="text" value="Daniel Nielsen"></div>
+      <div class="form-group"><label class="form-label">Fulde navn</label><input class="form-input" id="editName" type="text" value="Daniel Hansen"></div>
       <div class="form-group"><label class="form-label">Fødselsdag</label><input class="form-input" id="editDob" type="date" value="2007-12-05"></div>
       <div class="form-group"><label class="form-label">Bruger-ID</label><input class="form-input" id="editUserId" type="text" value="DK-2007-DN-8821"></div>
       <div style="height:20px"></div>
@@ -765,7 +765,7 @@ function showScreen(id) {
 }
 
 function saveProfile() {
-  const name = document.getElementById('editName').value.trim() || 'Daniel Nielsen';
+  const name = document.getElementById('editName').value.trim() || 'Daniel Hansen';
   const dob  = document.getElementById('editDob').value;
   document.getElementById('cardName').textContent = name;
   document.getElementById('qrCardName').textContent = name;
